@@ -1,0 +1,97 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+
+}
+
+body {
+  background-color: #f4f0e8;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.mobile-container {
+  max-width: 1100px;
+  margin: auto;
+  background-color: #f4f0e8;
+  color: black;
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+
+.topnav {
+  overflow: hidden;
+  min-height: 45px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.topnav #myLinks {
+  background-color: #d0cec8ed;
+}
+
+.topnav a {
+  color: rgb(0, 0, 0);
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 19px;
+  display: block;
+}
+
+.topnav a.icon {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+header, main {
+  padding: 20px;
+}
+
+footer {
+  padding: auto;
+  text-align: center;
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 0.2em;
+}
+
+h1 {
+  text-align: center;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  min-width: 480px;
+}
+
+table, th, td {
+  border: 1px solid gray;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
